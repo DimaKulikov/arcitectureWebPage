@@ -1,0 +1,10 @@
+.grid__cell_right-top {
+  grid-area: right-top;
+  align-self: end;
+}
+
+@media screen and (max-width: 768px) {
+  .grid__cell_right-top {
+    display: none;
+  }
+}

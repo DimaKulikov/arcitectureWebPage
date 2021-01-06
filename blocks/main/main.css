@@ -1,0 +1,16 @@
+.main {
+  background: url(./img/tool.svg) no-repeat top 18px right, url(./img/Rectangle.svg) no-repeat top right;
+  background-size: 16%, 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    background-size: 20%, 60%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main {
+    background-size: 25%, 70%;
+  }
+}

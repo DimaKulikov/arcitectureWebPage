@@ -1,0 +1,9 @@
+.grid__cell_right-bottom {
+  grid-area: right-bottom;
+}
+
+@media screen and (max-width: 768px) {
+ .grid__cell_right-bottom {
+    display: none;
+  }
+}

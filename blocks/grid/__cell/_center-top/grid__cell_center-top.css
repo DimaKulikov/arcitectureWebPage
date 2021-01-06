@@ -1,0 +1,7 @@
+.grid__cell_center-top {
+  grid-area: center-top;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: inherit;
+  align-items: end;
+}

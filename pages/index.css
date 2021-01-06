@@ -12,3 +12,22 @@
 @import url(../blocks/menu/__list/menu__list.css);
 @import url(../blocks/menu/__item/menu__item.css);
 @import url(../blocks/menu/__link/menu__link.css);
+
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/__wrapper/main__wrapper.css);
+
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__subtitle/hero__subtitle.css);
+@import url(../blocks/hero/__span-accent/hero__span-accent.css);
+
+@import url(../blocks/grid/grid.css);
+@import url(../blocks/grid/__cell/_center-bottom/grid__cell_center-bottom.css);
+@import url(../blocks/grid/__cell/_center-top/grid__cell_center-top.css);
+@import url(../blocks/grid/__cell/_left/grid__cell_left.css);
+@import url(../blocks/grid/__cell/_right-bottom/grid__cell_right-bottom.css);
+@import url(../blocks/grid/__cell/_right-top/grid__cell_right-top.css);
+
+@import url(../blocks/grid/__image/grid__image.css);
+@import url(../blocks/grid/__button/grid__button.css);
+

@@ -1,0 +1,13 @@
+.grid__cell_center-bottom {
+  grid-area: center-bottom;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: inherit;
+  align-items: start;
+}
+
+@media screen and (max-width: 400px) {
+  .grid__cell_center-bottom {
+    display: none;
+  }
+}
