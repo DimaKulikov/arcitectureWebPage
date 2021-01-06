@@ -1,0 +1,20 @@
+.header__menu-btn {
+  display: none;
+  margin: 0 5px 0 0;
+  width: 40px;
+  height: 40px;
+  background: none;
+  background-image: url(../../../img/icon-menu.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .header__menu-btn {
+    display: block;
+  }
+}

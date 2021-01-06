@@ -1,0 +1,28 @@
+.header__button {
+  background-color: #2D3436;
+  border-radius: 999px;
+  padding: 15px 30px;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  transition: opacity .4s;
+}
+
+.header__button:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 1024px) {
+.header__button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__button {
+    font-size: 14px;
+  }
+}
