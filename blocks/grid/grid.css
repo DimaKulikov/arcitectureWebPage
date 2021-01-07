@@ -25,12 +25,6 @@
   } 
 }
 
-@media screen and (max-width: 500px) {
-  .grid {
-    /* padding: 10px; */
-  }
-}
-
 @media screen and (max-width: 400px) {
   .grid {
     grid-template-areas:
