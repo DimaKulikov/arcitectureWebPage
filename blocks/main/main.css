@@ -1,16 +1,32 @@
 .main {
   background: url(./img/tool.svg) no-repeat top 18px right, url(./img/Rectangle.svg) no-repeat top right;
   background-size: 16%, 50%;
+  /* padding: 0 135px; */
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    /* padding: 0 70px; */
+  }
 }
 
 @media screen and (max-width: 768px) {
   .main {
     background-size: 20%, 60%;
+    
+    /* padding: 0 40px; */
+    
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main {
+    /* padding: 0 10px;     */
+    background-size: 25%, 70%;
   }
 }
 
 @media screen and (max-width: 400px) {
   .main {
-    background-size: 25%, 70%;
   }
 }

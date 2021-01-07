@@ -1,18 +1,16 @@
 .grid {  
-  max-width: 80%;
   display: grid;
   grid-template-areas: 
   "left center-top right-top"
   "left center-bottom right-bottom";
   grid-template-columns: 2fr 4fr 1fr;
   gap: 20px;
-  padding: 20px;
+  padding-top: 4%;
 }
 
 @media screen and (max-width: 1024px) {
   .grid {
     gap: 15px;    
-    max-width: 90%;
   } 
 }
 
@@ -23,13 +21,13 @@
     grid-template-areas: 
     "left center-top"
     "left center-bottom";    
-    max-width: 100%;
+    /* max-width: 100%; */
   } 
 }
 
 @media screen and (max-width: 500px) {
   .grid {
-    padding: 10px;
+    /* padding: 10px; */
   }
 }
 
