@@ -2,7 +2,6 @@
   margin: 0 15px;
   content: "\2022";
   color: #FDCB6E;
-  font-size: 18px;
 }
 
 .menu__item:last-of-type::after {
