@@ -1,10 +1,10 @@
 .main {
-  background: url(../../img/tool.svg) no-repeat top 18px right, url(../../img/Rectangle.svg) no-repeat top right;
-  background-size: 16%, 50%;
+  background: url(../../img/tool.svg) no-repeat top 18px right, url(../../img/Rectangle.svg) no-repeat top right, url(../../img/Wave.svg) no-repeat bottom;
+  background-size: 16%, 50%, 100%;
 }
 
 @media screen and (max-width: 768px) {
   .main {
-    background-size: 20%, 60%;
+    background-size: 20%, 60%, 100%;
   }
 }
