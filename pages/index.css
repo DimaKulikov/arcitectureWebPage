@@ -9,6 +9,11 @@
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_text/_accent/button_text_accent.css);
 
+@import url(../blocks/drawer/drawer.css);
+@import url(../blocks/drawer/_opened/drawer_opened.css);
+@import url(../blocks/drawer/__close-btn/drawer__close-btn.css);
+@import url(../blocks/drawer/__copyright/drawer__copyright.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__wrapper/header__wrapper.css);
 @import url(../blocks/header/__menu-btn/header__menu-btn.css);
@@ -16,6 +21,7 @@
 @import url(../blocks/header/__button/header__button.css);
 
 @import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__image/logo__image.css);
 @import url(../blocks/logo/__text/logo__text.css);
 
 @import url(../blocks/menu/__list/menu__list.css);
