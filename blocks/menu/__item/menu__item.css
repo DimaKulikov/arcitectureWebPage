@@ -7,3 +7,16 @@
 .menu__item:last-of-type::after {
   content: none;
 }
+
+@media screen and (max-width:768px){
+  .menu__item {
+    margin-bottom: 10px;  
+  }
+
+  .menu__item:last-child {
+    margin-bottom: 0;  
+  }
+  .menu__item::after {
+    display: none;
+  }
+}
