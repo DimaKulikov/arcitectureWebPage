@@ -1,0 +1,8 @@
+.footer-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 170px));
+  row-gap: 15px;
+}

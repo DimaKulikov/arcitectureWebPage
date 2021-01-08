@@ -1,27 +1,10 @@
-.drawer {  
-  position: fixed;
-  top: -100%;
-  left: 0;
-  right: 0;
-  z-index: 99;
-  background-color: white;
-  box-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16), 0px 4px 8px rgba(38, 50, 56, 0.08);
-  padding: 15px;
-  transition: .4s linear;
-}
 
-.drawer_opened {
-  top: 0;
-}
 
-.drawer__close-btn {
-  font-size: 24px;
-  cursor: pointer;
-}
 
-.drawer__copyright {
-  margin: 10px 0 0 0;
-}
+
+
+
+
 
 
 

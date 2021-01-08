@@ -1,0 +1,16 @@
+.social__link {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #6C5CE7;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.social__link:hover {
+  background-color: #ffeaa7;
+}
