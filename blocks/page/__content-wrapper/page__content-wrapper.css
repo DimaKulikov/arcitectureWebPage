@@ -1,10 +1,10 @@
-.main__wrapper {
+.page__content-wrapper {
   margin: 0 auto;
   max-width: 80%;
 }
 
 @media screen and (max-width: 1024px) {
-  .main__wrapper {
+  .page__content-wrapper {
     max-width: 90%;
   }
 }
