@@ -1,6 +1,15 @@
 .page__content-wrapper {
   margin: 0 auto;
-  max-width: 80%;
+  max-width: 1280px;
+  padding: 0 126px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1280px) {
+  .page__content-wrapper {
+    padding: 0;
+    max-width: 80%;
+  }
 }
 
 @media screen and (max-width: 1024px) {
