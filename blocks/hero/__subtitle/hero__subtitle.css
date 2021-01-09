@@ -1,13 +1,19 @@
 .hero__subtitle {
   margin: 0;
-  padding: 4% 15px 0 15px;
+  padding: 2% 15px 0 15px;
   font-weight: 900;
   font-size: 4vw;
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  .hero__subtitle {
+    padding-top: 16px;
+  } 
+}
+
 @media screen and (max-width: 400px) {
   .hero__subtitle {
-    font-size: 18px;
+    font-size: 16px;
   }
 }

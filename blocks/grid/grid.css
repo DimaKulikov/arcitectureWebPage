@@ -5,7 +5,7 @@
   "left center-bottom right-bottom";
   grid-template-columns: 2fr 4fr 1fr;
   gap: 20px;
-  padding-top: 4%;
+  padding-top: 7%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,7 +21,7 @@
     grid-template-areas: 
     "left center-top"
     "left center-bottom";    
-    /* max-width: 100%; */
+    padding-top: 42px;
   } 
 }
 
